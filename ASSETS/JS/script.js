@@ -3,8 +3,8 @@ const projectUrls = [
   'https://<your-github-username>.github.io/notification-bell/',
   'https://<your-github-username>.github.io/scroll-indicator/',
   'https://<your-github-username>.github.io/color-switch/',
-  'https://revrev30.github.io/AWD-MIDTERM//',
-  'https://revrev30.github.io/AWD-MIDTERM//',
+  'https://revrev30.github.io/AWD-MIDTERM/',
+  'https://revrev30.github.io/AWD-MIDTERM/',
 ];
 
 window.onload = function() {
