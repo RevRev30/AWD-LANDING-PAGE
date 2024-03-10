@@ -1,9 +1,9 @@
 const projectUrls = [
-  'https://<your-github-username>.github.io/jumping-letters/',
-  'https://<your-github-username>.github.io/notification-bell/',
-  'https://<your-github-username>.github.io/scroll-indicator/',
-  'https://<your-github-username>.github.io/color-switch/',
-  'https://revrev30.github.io/AWD-MIDTERM/',
+  'https://revrev30.github.io/AWD---JUMPING-LETTERS/',
+  'https://revrev30.github.io/AWD---NOTIFICATION-BELL/',
+  'https://revrev30.github.io/AWD---SCROLL-INDICATOR/',
+  'https://revrev30.github.io/AWD---COLOR-SWITCH/',
+  'https://revrev30.github.io/AWD---CALCULATOR',
   'https://revrev30.github.io/AWD-MIDTERM/',
 ];
 
