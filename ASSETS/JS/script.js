@@ -12,7 +12,7 @@ window.onload = function() {
 
   projects.forEach((project, index) => {
     project.addEventListener('click', () => {
-     .location.href = projectUrls[index];
+      window.location.href = projectUrls[index];
     });
   });
 };
