@@ -1,30 +1,17 @@
-const projectsContainer = document.querySelector('.projects');
+// Replace these URLs with the actual URLs of your projects
+const projectUrls = [
+  'https://example.com/project1',
+  'https://example.com/project2',
+  'https://example.com/project3',
+  'https://example.com/project4',
+  'https://example.com/project5',
+  'https://revrev30.github.io/AWD-MIDTERM/',
+];
 
-fetch('./file.json')
-  .then(response => response.json())
-  .then(data => {
-    data.forEach(project => {
-      const projectDiv = document.createElement('div');
-      projectDiv.classList.add('project');
+const projects = document.querySelectorAll('.project');
 
-      const img = document.createElement('img');
-      img.src = project.image;
-      img.alt = project.title;
-      projectDiv.appendChild(img);
-
-      const title = document.createElement('h2');
-      title.textContent = project.title;
-      projectDiv.appendChild(title);
-
-      const description = document.createElement('p');
-      description.textContent = project.description;
-      projectDiv.appendChild(description);
-
-      projectsContainer.appendChild(projectDiv);
-
-      projectDiv.addEventListener('click', () => {
-        window.location.href = project.link;
-      });
-    });
-  })
-  .catch(error => console.error('Error:', error));
+projects.forEach((project, index) => {
+  project.addEventListener('click', () => {
+    window.location.href = projectUrls[index];
+  });
+});
